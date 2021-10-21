@@ -1,0 +1,12 @@
+In case you require the chrome webdriver with a specific version, consult the following official link:
+https://chromedriver.chromium.org/downloads
+
+If you don’t know the version of your google chrome follow these steps:
+1. Open you Google Chrome 
+2. From the right side of the browser are displayed 3 points, click on them
+3. Select the help option
+4. Select the option "About Google Chrome"
+5. Shows the version you’re occupying of Google Chrome
+
+In case of doubts you can open the following link that shows the same:
+chrome://settings/help

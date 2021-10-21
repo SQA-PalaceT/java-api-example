@@ -1,0 +1,21 @@
+In order for Hudson to take the accents (and special characters) well in the selenium tests, unicode must be used.
+The codes are as follows:
+
+á -> \u00e1
+é -> \u00e9
+í -> \u00ed
+ó -> \u00f3
+ú -> \u00fa
+Á -> \u00c1
+É -> \u00c9
+Í -> \u00cd
+Ó -> \u00d3
+Ú -> \u00da
+ñ -> \u00f1
+Ñ -> \u00d1
+ü -> \u00FC
+Ü -> \u00DC
+ç -> \u00E7
+Ç -> \u00C7
+¿ -> \u00BF
+¡ -> \u00A1

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--En esta sección se mandan a llamar las clases de los test que se han creado para formar una suite--> 
+<suite name="Suite1" verbose="1" >
+<listeners>
+  <listener class-name="mavenpackage.reports.ListenersImplementation" />
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="mavenpackage.test.TestFlexibleRateUS" />
+      <class name="mavenpackage.test.textoEnEspañol">
+      <!-- <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/> -->
+    </classes>
+  </test>
+</suite>
